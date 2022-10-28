@@ -1,0 +1,615 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 163px;
+    background-color: #0D0D2B;
+}
+
+.container{
+    margin:auto 120px ;
+}
+.head-div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.head-divright{
+    display: flex;
+    column-gap: 24px;
+    flex-wrap: wrap;
+}
+.head-divleft{
+    display: flex;
+    column-gap: 24px;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+}
+li a{
+ color: #FFFFFF;
+}
+.project{
+    display: flex;
+    column-gap: 32px;
+    margin-top: 72px;
+}
+li{
+    list-style: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;   
+}
+.but1{
+    width: 130px;
+    height: 52px; 
+    background: #3671E9;
+    border-radius: 32px;     
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 60px;
+    
+}
+.but1 a{
+ color: #FFFFFF;   
+}
+.crappo{
+    width: 76.91px;
+    height: 13.45px;
+    color: #FFFFFF;
+    margin-left: 17px;
+    margin-top: 80px;
+    
+}
+.head-divleft img{
+    width: 40px;
+    height: 40px;
+    margin-top: 66px;
+}
+.login{
+    color: #FFFFFF;    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    width: 43px;
+    height: 24px;
+    margin-top: 74px; 
+}
+.border{
+    opacity: 0.3;
+    border: 1px solid #F2F2F2;   
+    height: 24px;
+    width: 0px;  
+    margin-top: 74px; 
+}
+.main-divone{
+    display: flex;
+    padding-bottom: 101.85px;
+}
+.main-div1{
+    margin-top: 80px;
+}
+.color{
+background-color: #0D0D2B;    
+}
+.strange{
+    display: flex;
+    width: 392px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 32px;
+    column-gap: 12px; 
+       
+}
+.strange-p1{font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #0D0D2B;
+width: 97px;
+height: 28px;
+padding: 4px 16px;
+background-color: #FFFFFF;
+border-radius: 32px;
+margin: 4px;
+}
+
+.strange-p2{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px; 
+    letter-spacing: 0.01em; 
+    color: #FFFFFF;
+    margin: 8px 11px 4px 0;
+}
+.main-div1 h1{
+    width: 588px;
+    height: 228px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px; 
+    color: #FFFFFF;  
+    margin-top: 28px;
+}
+.buy{
+    width: 435px;
+    height: 56px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #E0E0E0;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.but2{
+    width: 154px;
+    height: 59px;
+    
+    background-color: #3671E9;
+    border-radius: 32px;
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+}
+.but2 a{
+   color: #FFFFFF; 
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 116px 0;
+    
+}
+.box1{
+  display: flex;
+  column-gap: 24px;  
+}
+.box1 h3{
+    color: #FFFFFF;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+}
+.box1 p{
+    color:#E0E0E0;
+    width: 230px;
+    height: 28px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;    
+}
+.main-div3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 457px;
+}
+.main-div3 h3{
+
+color: #FFFFFF;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 150%;
+}
+.main-div3 p{
+    width: 622px;
+    height: 54px;
+    color: #E0E0E0;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+.div3_top{
+    margin-top: 100px;
+}
+.strange2{
+position: absolute;
+left: 249px;
+top: 302px;
+background-color: #ffffff;
+border-radius: 16px;
+}
+.main-div4{
+    
+    justify-content: center;
+    background-color: linear-gradient(180deg, #F8F9FB 0%, #FAFBFF 100%);
+}
+.strange-1{
+    padding: 48px;
+}
+.in1{
+    width: 403px;
+    height: 38px;
+    color: #0D0D2B;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    border-bottom: 1px solid #E0E0E0;
+    border: hidden;
+    
+}
+.for{
+    border-bottom: 1px solid #E0E0E0;
+}
+.lab{
+    color: #0D0D2B;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    margin-right: 131px;
+    
+    
+}
+.forborder{
+    border-bottom: 1px solid #E0E0E0;
+    
+}
+.form{
+    display: flex;
+    justify-content: center;
+    column-gap: 48px;
+    
+}
+.but3{
+width: 146px;
+height: 59px;
+color: #FFFFFF;
+background-color: #3671E9;
+border-radius: 32px;
+}
+.strange-2{
+padding: 48px;
+}
+.strange2-p1{
+width: 259px;
+height: 24px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #3671E9 !important;
+}
+
+.strange-2 h3{
+    width: 624px;
+    height: 48px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #0D0D2B;
+}
+.strange2-p2{
+    width: 516px;
+    height: 28px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #828282 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-div4{
+    display: flex;
+    text-align: center;
+    background-color: #f2ebeb;
+}
+.main-div4 h2{
+    width: 741px;
+    height: 120px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    
+    color: #0D0D2B;  
+}
+.div4-center{
+    margin-top: 316px;
+    margin-bottom: 64px;
+}
+
+.boxes2{
+    display: flex;
+    justify-content: space-between;
+}
+.mining{
+    display: flex;
+}
+.mining a{
+    color: #ffffff;
+}
+.bitcoin{
+    display: flex;
+    margin: 0 105px 16px 106px;
+}
+.bitcoin h4{
+    color: #FFFFFF;
+    width: 115px;
+height: 48px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 150%;
+}
+.bitcoin p{
+    color: #FFFFFF;
+    opacity: 0.7;
+    width: 36px;
+height: 27px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+margin-top: 11px;
+margin-left: 4px;
+}
+.digit{
+    color: #FFFFFF;
+    letter-spacing: 0.01em;
+    width: 322px;
+height: 56px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+margin-left: 24px;
+margin-bottom: 25px;
+}
+.boxes2-b1{
+    background-color: #2B076E;
+    width: 370px;
+    height: 433px;
+    border-radius: 16px;
+}
+.b1-img img{
+    margin: 48px 145px;
+}
+.b1-yozuv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.but4{
+width: 205px;
+height: 64px;
+background: #3671E9;
+border-radius: 32px;
+color: #FFFFFF;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+margin-left: 84px;
+}
+.mining p{
+    padding: 18.5px 24px;
+}
+.mining img{
+    margin-top: 16px;
+    padding-right:10px;
+    width: 32px;
+    height: 32px;
+}
+.boxes2-b2{
+    width: 370px;
+    height: 433px;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+.main-div5{
+    background-color: #f2ebeb;
+    padding-bottom: 100px;
+}
+.b2-img img{
+    margin: 48px 145px;
+}
+.ethereum{
+    display: flex;
+    margin: 0 105px 16px 106px;
+}
+.ethereum h4{
+    color: #0D0D2B;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 150%;
+}
+.ethereum p{
+    color: #BDBDBD;
+    opacity: 0.7;
+ 
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+margin-top: 11px;
+margin-left: 4px;
+}
+.digit2{
+    color: #828282;
+    letter-spacing: 0.01em;
+  
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+margin-left: 24px;
+margin-bottom: 25px;
+}
+.b2-yozuv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.arrow{
+    width: 64px;
+    margin-left: 153px;
+}
+.colorfull{
+    background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+    padding: 88px 0;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3671E9;
+    padding: 48px;
+}
+.last1 h3{
+    width: 501px;
+height: 48px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 150%;
+color: #FFFFFF;
+margin-bottom: 16px;
+}
+.last1 p{
+    width: 348px;
+height: 56px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.01em;
+color: #FFFFFF;
+}
+
+.last2{
+    margin-top: 34px;
+}
+.lastin{
+    
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.01em;
+background-color: #3671E9;
+border-color: #3671E9;
+}
+.lastin::placeholder{
+    color: #ffffff;
+}
+.lastbor{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    width: 374px;
+    height: 0px;
+}
+.butlast{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    padding: 14px 32px;
+    width: 152px;
+    height: 55px;
+    background: #FFFFFF;
+    
+    border-radius: 32px;
+    border-color: #FFFFFF;   
+    margin-top: 26px;
+}
+.butlast a{
+    color: #0D0D2B !important;
+}
+
+.thelatest{
+    background-color: #0D0D2B;
+    padding: 78px 0 74px 0;
+}
+
+.est{
+    display: flex;
+    justify-content: space-between;
+}
+.additional{
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.01em;
+color: #FFFFFF;
+}
+.est-ul{
+    display: flex;
+    column-gap: 35px;
+}
